@@ -8,7 +8,7 @@ const app = express();
 app.set('view engine', 'ejs');
 
 //listen for requests
-app.listen(4000);
+app.listen(3000);
 
 //middleware & static files
 app.use(express.static('public'));
